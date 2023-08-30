@@ -23,9 +23,10 @@ export default function Hero() {
         <p className='hero__subtitile'>
           Купите абонемент, чтобы стать частью клуба в новом сезоне–2024. 8
           месяцев за
-          <span className='hero__new-price'>
-            499₽<span className='hero__old-price'>3190₽</span>
-          </span>
+          <div className='hero__prices'>
+            <span className='hero__new-price'>499₽</span>
+            <span className='hero__old-price'>3190₽</span>
+          </div>
         </p>
         <button className='hero__btn'>Стать частью клуба</button>
       </div>
