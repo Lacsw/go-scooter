@@ -1,12 +1,14 @@
+import './App.css';
 import Benefits from '../Benefits/Benefits';
 import Hero from '../Hero/Hero';
-import './App.css';
+import Parties from '../Parties/Parties';
 
 function App() {
   return (
     <main className='app'>
       <Hero />
       <Benefits />
+      <Parties />
     </main>
   );
 }

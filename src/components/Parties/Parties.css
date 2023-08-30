@@ -1,0 +1,87 @@
+.parties__container {
+  padding-left: 262px;
+}
+
+.parties__title {
+  width: 600px;
+  margin: 0;
+
+  color: #21201f;
+  font-family: YS Text;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100%;
+  letter-spacing: -0.96px;
+}
+
+.parties__text {
+  width: 440px;
+  padding: 35px 0 65px;
+  margin: 0;
+
+  color: #21201f;
+  font-family: YS Text;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.parites__images {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px 30px;
+  padding: 0;
+  margin: 0;
+  margin-left: -13px;
+}
+
+.parites__image {
+  width: 456px;
+  height: 456px;
+  position: relative;
+}
+
+.parites__image_two {
+  margin-top: -212px;
+}
+
+.parites__image_three {
+  margin-left: -17px;
+}
+
+.parites__image_four {
+  margin-top: -212px;
+}
+
+.parties__image-sticker-one {
+  width: 330px;
+  height: 290px;
+  position: absolute;
+  top: 16px;
+  left: -151px;
+  background-image: url('../../images/parties/image-sticker01.png');
+  background-position: center;
+}
+
+.parties__image-sticker-two {
+  width: 330px;
+  height: 290px;
+  position: absolute;
+  top: -111px;
+  left: 277px;
+  background-image: url('../../images/parties/image-sticker02.png');
+  background-position: center;
+}
+
+.parties__image-sticker-three {
+  width: 330px;
+  height: 330px;
+  position: absolute;
+  top: 325px;
+  right: -127px;
+  background-image: url('../../images/parties/image-sticker03.png');
+  background-position: center;
+}

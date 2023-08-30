@@ -24,12 +24,13 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  padding-bottom: 128px;
+  padding-bottom: 122px;
 }
 
 .benefits__item {
   width: 400px;
 }
+
 .benefits__item-text {
   width: 400px;
   margin: 0;
