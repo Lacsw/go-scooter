@@ -1,11 +1,13 @@
+import Benefits from '../Benefits/Benefits';
 import Hero from '../Hero/Hero';
 import './App.css';
 
 function App() {
   return (
-    <div className='app'>
+    <main className='app'>
       <Hero />
-    </div>
+      <Benefits />
+    </main>
   );
 }
 
