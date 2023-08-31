@@ -28,7 +28,7 @@ export default function Hero() {
             <span className='hero__old-price'>3190₽</span>
           </div>
         </p>
-        <button className='hero__btn'>Стать частью клуба</button>
+        <a href='#membership' className='hero__btn'>Стать частью клуба</a>
       </div>
     </section>
   );

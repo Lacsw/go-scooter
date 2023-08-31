@@ -1,0 +1,23 @@
+.terms {
+  width: 906px;
+  padding-left: 262px;
+  margin: 111px 0 128px;
+}
+
+.terms__text {
+  color: #c5c5c5;
+  font-family: YS Text;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.terms__link {
+  color: #c5c5c5;
+  font-family: YS Text;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; 
+}
