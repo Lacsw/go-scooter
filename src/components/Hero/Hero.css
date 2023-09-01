@@ -1,28 +1,41 @@
 .hero {
   height: 804px;
-  width: 100%;
-  background: linear-gradient(
-    90deg,
-    rgba(255, 92, 77, 0.2) 0%,
-    rgba(235, 70, 159, 0.2) 25%,
-    rgba(131, 65, 239, 0.2) 72%,
-    rgba(63, 104, 249, 0.2) 100%
-  );
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0, #fff 100%),
+    var(
+      --Linear,
+      linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.2) 0,
+        rgba(255, 255, 255, 0.2) 100%
+      ),
+      linear-gradient(
+        90deg,
+        rgba(255, 92, 77, 0.2) 0,
+        rgba(235, 70, 159, 0.2) 25%,
+        rgba(131, 65, 239, 0.2) 72%,
+        rgba(63, 104, 249, 0.2) 100%
+      )
+    );
 }
 
 .hero__container {
   height: 100%;
-  width: 100%;
   position: relative;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
   box-sizing: border-box;
-  padding-left: 262px;
   z-index: 100;
 }
 
 .hero__logo {
   margin-top: 125px;
   margin-bottom: 60px;
+  width: 176px;
+  height: 51px;
+}
+
+.hero__image-group {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .hero__image {
@@ -67,7 +80,7 @@
 
 .hero__title {
   margin: 0;
-  width: 420px;
+  max-width: 420px;
 
   color: #21201f;
   font-family: YS Text;
@@ -133,6 +146,7 @@
 }
 
 .hero__btn {
+  width: 222px;
   display: inline-block;
   border: none;
   padding: 22px 48px;
@@ -143,6 +157,7 @@
   transition: opacity 0.5s ease-in-out;
 
   text-decoration: none;
+  text-align: center;
   color: #21201f;
   font-family: YS Text;
   font-size: 24px;
@@ -153,4 +168,123 @@
 
 .hero__btn:hover {
   opacity: 0.6;
+}
+
+@media screen and (max-width: 1129px) {
+  .hero__image {
+    width: 600px;
+    height: 450px;
+    object-fit: contain;
+    top: 130px;
+    right: 0px;
+  }
+
+  .hero__image-caption {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    top: 343px;
+    right: 275px;
+  }
+
+  .hero__image-ellipse {
+    width: 357.8px;
+    height: 301.903px;
+  }
+}
+
+@media screen and (max-width: 989px) {
+  .hero {
+    height: 900px;
+  }
+
+  .hero__image-group {
+    top: 320px;
+    right: 50px;
+  }
+
+  .hero__logo {
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+
+  .hero__title {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .hero {
+    height: 635px;
+  }
+
+  .hero__logo {
+    width: 113px;
+    height: 32px;
+    margin: 32px 0 25px;
+  }
+
+  .hero__title {
+    max-width: 215px;
+    font-size: 36px;
+  }
+
+  .hero__subtitile {
+    max-width: 311px;
+    font-size: 18px;
+    margin-top: 24px;
+    margin-bottom: 0;
+  }
+
+  .hero__prices {
+    border-radius: 500px;
+    background: linear-gradient(
+        0deg,
+        rgba(241, 241, 241, 0.6) 0%,
+        rgba(241, 241, 241, 0.6) 100%
+      ),
+      radial-gradient(141.42% 141.42% at 100% -0%, #e0b8ff 0%, #b6b9ff 100%);
+  }
+
+  .hero__new-price {
+    padding: 0px 8px;
+  }
+
+  .hero__old-price {
+    font-size: 13px;
+    padding: 0 4px;
+  }
+
+  .hero__btn {
+    display: inline;
+    position: fixed;
+    bottom: 24px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 18px 44px;
+
+    font-size: 18px;
+  }
+
+  .hero__image {
+    width: 320px;
+    height: 266px;
+    top: 0;
+  }
+
+  .hero__image-group {
+    top: 300px;
+    right: 30px;
+  }
+
+  .hero__image-caption {
+    width: 80px;
+    height: 80px;
+    top: 130px;
+    right: 150px;
+  }
+
+  .hero__image-ellipse {
+    display: none;
+  }
 }

@@ -7,7 +7,7 @@ import heroImageCaption from '../../images/image-caption.png';
 export default function Hero() {
   return (
     <section className='hero'>
-      <div className='hero__container'>
+      <div className='hero__container main-padding'>
         <img className='hero__logo' src={logo} alt='логотип' />
         <div className='hero__image-group'>
           <img className='hero__image' src={heroImage} alt='скутер' />

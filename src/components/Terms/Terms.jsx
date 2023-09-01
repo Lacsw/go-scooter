@@ -3,13 +3,13 @@ import './Terms.css';
 
 export default function Terms() {
   return (
-    <section className='terms'>
+    <section className='terms main-padding'>
       <p className='terms__text'>
         Доп. опция «Абонемент на самокаты» на 8 месяцев (240 дней) активируется
         автоматически с момента старта сезона 2024 г. самокатов Яндекс Go, далее
         предусмотрено автопродление доп.опции за 399 руб./мес. Сертификат на
-        доп.опцию «Абонемент на самокаты» на 8 месяцев оформляется <br />
-        на условиях документа{' '}
+        доп.опцию «Абонемент на самокаты» на 8 месяцев оформляется на условиях
+        документа{' '}
         <a className='terms__link' href={termsLinks.SEASONPASS}>
           yandex.ru/legal/scooters_seasonpass
         </a>

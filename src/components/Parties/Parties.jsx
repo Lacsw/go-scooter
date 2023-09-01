@@ -8,7 +8,7 @@ import partyImage04 from '../../images/parties/party04.png';
 export default function Parties() {
   return (
     <section className='parties'>
-      <div className='parties__container'>
+      <div className='parties__container main-padding'>
         <h2 className='parties__title'>
           Эксклюзивный доступ к событиям Самокатов
         </h2>
@@ -19,22 +19,43 @@ export default function Parties() {
           и слушали хор Attaque de Panique
         </p>
         <ul className='parites__images'>
-          <li className='parites__image parites__image_one'>
-            <img src={partyImage01} alt='вечеринка' />
+          <li className='parites__image-group parites__image-group_one'>
+            <img
+              className='parites__image'
+              src={partyImage01}
+              alt='вечеринка'
+            />
             <span className='parties__image-sticker-one' />
+            <span className='parties__image-sticker-two parties__image-sticker-two_mobile' />
           </li>
-          <li className='parites__image parites__image_two'>
-            <img src={partyImage02} alt='вечеринка' />
+          <li className='parites__image-group parites__image-group_two'>
+            <img
+              className='parites__image'
+              src={partyImage02}
+              alt='вечеринка'
+            />
             <span className='parties__image-sticker-two' />
           </li>
-          <li className='parites__image parites__image_three'>
-            <img src={partyImage03} alt='вечеринка' />
+          <li className='parites__image-group parites__image-group_three'>
+            <img
+              className='parites__image'
+              src={partyImage03}
+              alt='вечеринка'
+            />
           </li>
-          <li className='parites__image parites__image_four'>
-            <img src={partyImage04} alt='вечеринка' />
+          <li className='parites__image-group parites__image-group_four'>
+            <img
+              className='parites__image'
+              src={partyImage04}
+              alt='вечеринка'
+            />
             <span className='parties__image-sticker-three' />
           </li>
         </ul>
+        <nav className='parties__nav'>
+          <button className='parties__nav-btn parties__nav-btn_prev' />
+          <button className='parties__nav-btn parties__nav-btn_next' />
+        </nav>
       </div>
     </section>
   );

@@ -6,7 +6,7 @@ import scooterSmallImage from '../../images/membership/scooter02.png';
 export default function Membership() {
   return (
     <section className='membership' id='membership'>
-      <div className='membership__container'>
+      <div className='membership__container main-padding'>
         <div className='membership__item'>
           <h2 className='membership__title'>
             Купить абонемент <br />и вступить <br />в клуб смогут <br />
@@ -18,7 +18,7 @@ export default function Membership() {
             Яндекс Go, покупки <br />и заказы в других сервисах Яндекса
           </p>
         </div>
-        <div className='membership__item'>
+        <div className='membership__item membership__item_invisible'>
           <img
             className='membership__scooter-big'
             src={scooterBigImage}

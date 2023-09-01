@@ -1,10 +1,10 @@
 .terms {
-  width: 906px;
-  padding-left: 262px;
+  max-width: 906px;
   margin: 111px 0 128px;
 }
 
 .terms__text {
+  margin: 0;
   color: #c5c5c5;
   font-family: YS Text;
   font-size: 13px;
@@ -19,5 +19,27 @@
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
-  line-height: 120%; 
+  line-height: 120%;
+}
+
+@media screen and (max-width: 989px) {
+  .terms {
+    text-align: justify;
+    margin: 90px 0 100px;
+    padding-right: 32px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .terms {
+    margin: 72px 0;
+  }
+
+  .terms__text {
+    font-size: 10px;
+  }
+
+  .terms__link {
+    font-size: 10px;
+  }
 }

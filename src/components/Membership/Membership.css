@@ -1,5 +1,4 @@
 .membership__container {
-  padding-left: 262px;
   display: flex;
   flex-wrap: wrap;
   gap: 116px 56px;
@@ -100,4 +99,88 @@
 .membership__image-ellipse_small-scooter {
   top: 10px;
   left: -90px;
+}
+
+@media screen and (max-width: 1215px) {
+  .membership__scooter-small {
+    object-fit: cover;
+    margin-left: -15px;
+  }
+
+  .membership__image-ellipse_small-scooter {
+    top: 30px;
+    left: -40px;
+  }
+}
+
+@media screen and (max-width: 1129px) {
+  .membership__scooter-big {
+    width: 600px;
+    height: 600px;
+    object-fit: contain;
+    top: -125px;
+    left: -100px;
+  }
+
+  .membership__plus-logo {
+    width: 180px;
+    height: 180px;
+    background-size: 220px;
+    top: 53px;
+    left: -5px;
+  }
+
+  .membership__image-ellipse {
+    right: 0;
+    width: 312.783px;
+    height: 269.042px;
+  }
+}
+
+@media screen and (max-width: 989px) {
+  .membership__container {
+    gap: 25px;
+  }
+
+  .membership__title {
+    font-size: 40px;
+  }
+
+  .membership__item_invisible {
+    display: none;
+  }
+
+  .membership__scooter-small {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .membership__container {
+    gap: 0;
+    justify-content: center;
+  }
+
+  .membership__title {
+    width: 300px;
+    font-size: 32px;
+  }
+
+  .membership__text {
+    margin-top: 32px;
+    font-size: 16px;
+  }
+
+  .membership__image-ellipse_small-scooter {
+    width: 216px;
+    height: 193px;
+    top: 95px;
+    left: 60px;
+  }
+  
+  .membership__btn {
+    width: 222px;
+    text-align: center;
+    padding: 18px 44px;
+  }
 }
