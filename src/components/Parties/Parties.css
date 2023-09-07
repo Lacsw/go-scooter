@@ -1,3 +1,8 @@
+.parties {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 .parties__title {
   max-width: 600px;
   margin: 0;
@@ -201,7 +206,7 @@
     background-size: cover;
   }
 
-  .parties__nav  {
+  .parties__nav {
     padding: 18px 0 60px;
     margin-left: -45px;
   }

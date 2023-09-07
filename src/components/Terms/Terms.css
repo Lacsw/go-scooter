@@ -1,6 +1,7 @@
 .terms {
   max-width: 906px;
-  margin: 111px 0 128px;
+  margin: 111px auto 128px;
+
 }
 
 .terms__text {
